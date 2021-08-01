@@ -58,4 +58,4 @@ echo $nomeMaquina
 #Maior consumo de memoria dos ultimos n dias
 #-------------------#
 
-
+curl -i -XPOST 'http://localhost::8086/write?db=monitoramento' --data-binary '$memoria_total,server=$nomeMaquina value=$memoriaTotalMb'
