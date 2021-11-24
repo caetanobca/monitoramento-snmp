@@ -1,5 +1,4 @@
 #!/bin/bash
-# Maquina real 192.168.0.111
 
 =$enderecoMaquina1
 
